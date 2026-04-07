@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>404 — Page Not Found | Nusrat Web Studio</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Outfit:wght@400;500&display=swap" rel="stylesheet"/>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Outfit',sans-serif;background:#050a14;color:#e8edf5;min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:40px 20px;overflow:hidden;}
+body::before{content:'';position:fixed;inset:0;pointer-events:none;background:radial-gradient(ellipse 60% 50% at 50% 40%,rgba(0,200,255,.08),transparent 70%);}
+.wrap{position:relative;z-index:1;max-width:500px;}
+.num{font-family:'Syne',sans-serif;font-size:clamp(6rem,20vw,10rem);font-weight:800;letter-spacing:-8px;background:linear-gradient(135deg,#00c8ff,#7b5fff);-webkit-background-clip:text;-webkit-text-fill-color:transparent;line-height:1;margin-bottom:16px;}
+h1{font-family:'Syne',sans-serif;font-size:1.5rem;font-weight:700;margin-bottom:12px;}
+p{color:#6b7d96;font-size:.95rem;line-height:1.7;margin-bottom:32px;}
+.btn{display:inline-flex;align-items:center;gap:8px;background:linear-gradient(135deg,#00c8ff,#7b5fff);color:#000;font-family:'Syne',sans-serif;font-weight:700;padding:13px 30px;border-radius:100px;text-decoration:none;transition:transform .25s,box-shadow .3s;box-shadow:0 8px 28px rgba(0,200,255,.25);}
+.btn:hover{transform:translateY(-3px);box-shadow:0 16px 44px rgba(0,200,255,.35);}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="num">404</div>
+  <h1>Page Not Found</h1>
+  <p>The page you're looking for doesn't exist or has been moved.</p>
+  <a href="/" class="btn">← Back to Portfolio</a>
+</div>
+</body>
+</html>
